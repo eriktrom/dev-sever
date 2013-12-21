@@ -34,7 +34,7 @@ module.exports = {
  *
  * @see api/app.js for more information on customizing it
  */
-var serverPath = path.join(path.resolve(__dirname, '../..'), 'api/server'),
+var serverPath = path.join(path.resolve(__dirname, '../..'), 'server/server'),
     server = require(serverPath);
 
 function devMiddlewares(connect, options) {
